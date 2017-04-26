@@ -14,7 +14,7 @@ namespace Calendar
             Console.Write("{0}年 {1}月\n", dateNow.Year, dateNow.Month);
             DateTime dateFirst = DateTime.Parse(string.Format("{0}/{1}/1",
                 dateNow.Year, dateNow.Month));
-            DisplayCalendar(dateFirst);
+            //DisplayCalendar(dateFirst);
             Console.ReadLine();
         }
         static void DisplayCalendar(DateTime dateFirst)
